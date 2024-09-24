@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  font-family: "Gowun Batang", serif;
+  font-weight: 700;
+  font-style: normal;
+}
