@@ -1,6 +1,6 @@
 import React from 'react'
 import { RiReactjsLine } from 'react-icons/ri'
-import { BiLogoPostgresql } from 'react-icons/bi'
+import { FaDatabase } from 'react-icons/fa'
 import { FaPython } from 'react-icons/fa'
 import { FaJs } from 'react-icons/fa'
 import { animate, motion } from 'framer-motion'
@@ -42,7 +42,7 @@ const Technologies = () => {
             <motion.div variants={iconVariants(2.5)}
             initial="initial"
             animate="animate" className="rounded-2xl border-4 border-neutral-800 p-4">
-                <BiLogoPostgresql className='text-7xl text-sky-700'/>
+                <FaDatabase className='text-7xl text-sky-700'/>
             </motion.div >
             <motion.div variants={iconVariants(2)}
             initial="initial"
